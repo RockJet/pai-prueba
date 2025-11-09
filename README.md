@@ -23,7 +23,6 @@ Sigue estos pasos para poner en marcha el proyecto:
 	git clone https://github.com/RockJet/pai-prueba.git
 	cd tu-repositorio
 
-  
     ```
 2. Instalar dependencias con los siguientes comandos:
     ```bash
@@ -31,7 +30,6 @@ Sigue estos pasos para poner en marcha el proyecto:
     
 	composer install
 	npm install
-
 
     ```
 3. Crear el archivo de entorno:
@@ -62,17 +60,15 @@ Sigue estos pasos para poner en marcha el proyecto:
     
 	php artisan migrate --seed
 
-  
     ```
 7. Compilar los assets del frontend:
     ```bash
-        
-    	npm run dev
+    
+    npm run dev
 
-      
     ```
 8. Ejecución de la Aplicación
-        ```bash
+    ```bash
 
 	php artisan serve
 
@@ -84,7 +80,7 @@ Ejecución de los Tests
 
 9. Para asegurarte de que toda la funcionalidad de la API funciona como se espera, puedes ejecutar el conjunto de pruebas de PHPUnit con el siguiente comando:
     ```bash
-    
+
 	./vendor/bin/phpunit
 
-      ```
+    ```
