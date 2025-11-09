@@ -50,17 +50,18 @@ Sigue estos pasos para poner en marcha el proyecto:
     ```bash
 	php artisan migrate --seed
     ```
-7. Compilar los assets del frontend:
+7. Compilar los assets del frontend en una nueva terminal:
     ```bash
     npm run dev
     ```
-8. Ejecución de la Aplicación
+8. Ejecución de la Aplicación en una nueva terminal:
     ```bash
 	php artisan serve
     ```
       
 
 Ahora puedes acceder a la aplicación en http://127.0.0.1:8000.
+
 Ejecución de los Tests
 
 9. Para asegurarte de que toda la funcionalidad de la API funciona como se espera, puedes ejecutar el conjunto de pruebas de PHPUnit con el siguiente comando:
