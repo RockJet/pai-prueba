@@ -36,7 +36,7 @@ Sigue estos pasos para poner en marcha el proyecto:
     ```
 3. Crear el archivo de entorno:
 	
-Copia el archivo de ejemplo .env.example para crear tu propio archivo de configuración.
+    Copia el archivo de ejemplo .env.example para crear tu propio archivo de configuración.
 
   
 
@@ -47,14 +47,14 @@ Copia el archivo de ejemplo .env.example para crear tu propio archivo de configu
 
     ```
 5. Configurar el archivo .env:
-        ```bash
+    ```bash
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=booklend
-DB_USERNAME=root
-DB_PASSWORD=
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=booklend
+    DB_USERNAME=root
+    DB_PASSWORD=
   
     ```
 6. Ejecutar las migraciones y seeders con el siguiente comando:
